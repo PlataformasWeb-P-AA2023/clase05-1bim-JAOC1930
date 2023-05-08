@@ -8,6 +8,6 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/persona/<id>')
+@app.route('mi/persona/<id>/datos/personales/2023/loja/ecuador')
 def persona(id):
     return render_template('persona.html', id=id)
